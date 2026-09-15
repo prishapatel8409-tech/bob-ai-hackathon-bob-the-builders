@@ -1,0 +1,124 @@
+[
+  {
+    "patientId": "PT-1001",
+    "siteId": "SITE-042",
+    "enrollmentDate": "2023-04-01",
+    "demographics": {
+      "age": 58, "sex": "F", "weight": 62,
+      "inclusionChecklist": { "INC-01": true, "INC-02": true, "INC-03": true, "INC-04": true },
+      "exclusionChecklist": { "EXC-01": false, "EXC-02": false, "EXC-03": false }
+    },
+    "visits": [
+      { "visitCode": "V01-SCREEN", "actualDate": "2023-03-20", "proceduresCompleted": ["informed_consent","physical_exam","ecg","ct_scan"], "assessmentsCompleted": ["ecog_status","lab_panel_full"] },
+      { "visitCode": "V02-BASELINE", "actualDate": "2023-04-01", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ecg"], "assessmentsCompleted": ["ecog_status","lab_panel_full","ctdna_sample"] },
+      { "visitCode": "V03-C1D15", "actualDate": "2023-04-18", "proceduresCompleted": ["physical_exam","vitals"], "assessmentsCompleted": ["lab_panel_safety","ae_review"] },
+      { "visitCode": "V04-C2D1", "actualDate": "2023-04-30", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status"] },
+      { "visitCode": "V05-C3D1", "actualDate": "2023-06-01", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ct_scan"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment"] },
+      { "visitCode": "V06-EOT", "actualDate": "2023-07-26", "proceduresCompleted": ["physical_exam","vitals","ct_scan","ecg"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment","ctdna_sample"] }
+    ],
+    "medications": [
+      { "medicationCode": "MED-AUR-001", "medicationName": "Aurokinib 200mg", "dose": 200, "doseUnit": "mg", "frequency": "QD", "startDate": "2023-04-01" }
+    ]
+  },
+  {
+    "patientId": "PT-1023",
+    "siteId": "SITE-042",
+    "enrollmentDate": "2023-05-10",
+    "demographics": {
+      "age": 67, "sex": "M", "weight": 78,
+      "inclusionChecklist": { "INC-01": true, "INC-02": true, "INC-03": true, "INC-04": true },
+      "exclusionChecklist": { "EXC-01": false, "EXC-02": false, "EXC-03": false }
+    },
+    "visits": [
+      { "visitCode": "V01-SCREEN", "actualDate": "2023-04-25", "proceduresCompleted": ["informed_consent","physical_exam","ct_scan"], "assessmentsCompleted": ["ecog_status","lab_panel_full"] },
+      { "visitCode": "V02-BASELINE", "actualDate": "2023-05-10", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ecg"], "assessmentsCompleted": ["ecog_status","lab_panel_full","ctdna_sample"] },
+      { "visitCode": "V04-C2D1", "actualDate": "2023-06-10", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status"] },
+      { "visitCode": "V05-C3D1", "actualDate": "2023-07-12", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ct_scan"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment"] }
+    ],
+    "medications": [
+      { "medicationCode": "MED-AUR-001", "medicationName": "Aurokinib 200mg", "dose": 320, "doseUnit": "mg", "frequency": "QD", "startDate": "2023-05-10" },
+      { "medicationCode": "MED-QT-PROLONGING", "medicationName": "Clarithromycin", "dose": 500, "doseUnit": "mg", "frequency": "BID", "startDate": "2023-06-01", "endDate": "2023-06-10" }
+    ]
+  },
+  {
+    "patientId": "PT-2001",
+    "siteId": "SITE-017",
+    "enrollmentDate": "2023-06-01",
+    "demographics": {
+      "age": 53, "sex": "F", "weight": 55,
+      "inclusionChecklist": { "INC-01": true, "INC-02": true, "INC-03": true, "INC-04": true },
+      "exclusionChecklist": { "EXC-01": false, "EXC-02": false, "EXC-03": false }
+    },
+    "visits": [
+      { "visitCode": "V01-SCREEN", "actualDate": "2023-05-18", "proceduresCompleted": ["informed_consent","physical_exam","ecg","ct_scan"], "assessmentsCompleted": ["ecog_status","lab_panel_full"] },
+      { "visitCode": "V02-BASELINE", "actualDate": "2023-06-01", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ecg"], "assessmentsCompleted": ["ecog_status","lab_panel_full","ctdna_sample"] },
+      { "visitCode": "V03-C1D15", "actualDate": "2023-06-28", "proceduresCompleted": ["physical_exam","vitals"], "assessmentsCompleted": ["lab_panel_safety","ae_review"] },
+      { "visitCode": "V04-C2D1", "actualDate": "2023-07-02", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status"] },
+      { "visitCode": "V05-C3D1", "actualDate": "2023-07-30", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ct_scan"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment"] }
+    ],
+    "medications": [
+      { "medicationCode": "MED-AUR-001", "medicationName": "Aurokinib 200mg", "dose": 200, "doseUnit": "mg", "frequency": "QD", "startDate": "2023-06-01" }
+    ]
+  },
+  {
+    "patientId": "PT-3001",
+    "siteId": "SITE-089",
+    "enrollmentDate": "2022-10-01",
+    "demographics": {
+      "age": 71, "sex": "M", "weight": 68,
+      "inclusionChecklist": { "INC-01": true, "INC-02": true, "INC-03": false, "INC-04": true },
+      "exclusionChecklist": { "EXC-01": false, "EXC-02": false, "EXC-03": false }
+    },
+    "visits": [
+      { "visitCode": "V01-SCREEN", "actualDate": "2022-09-15", "proceduresCompleted": ["informed_consent","physical_exam","ecg","ct_scan"], "assessmentsCompleted": ["ecog_status","lab_panel_full"] },
+      { "visitCode": "V02-BASELINE", "actualDate": "2022-10-01", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ecg"], "assessmentsCompleted": ["ecog_status","lab_panel_full","ctdna_sample"] },
+      { "visitCode": "V03-C1D15", "actualDate": "2022-10-16", "proceduresCompleted": ["physical_exam","vitals"], "assessmentsCompleted": ["lab_panel_safety","ae_review"] },
+      { "visitCode": "V04-C2D1", "actualDate": "2022-10-30", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status"] },
+      { "visitCode": "V05-C3D1", "actualDate": "2022-11-28", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ct_scan"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment"] },
+      { "visitCode": "V06-EOT", "actualDate": "2023-02-02", "proceduresCompleted": ["physical_exam","vitals","ct_scan","ecg"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment","ctdna_sample"] }
+    ],
+    "medications": [
+      { "medicationCode": "MED-AUR-001", "medicationName": "Aurokinib 200mg", "dose": 200, "doseUnit": "mg", "frequency": "QD", "startDate": "2022-10-01" }
+    ]
+  },
+  {
+    "patientId": "PT-4001",
+    "siteId": "SITE-031",
+    "enrollmentDate": "2024-02-01",
+    "demographics": {
+      "age": 44, "sex": "F", "weight": 58,
+      "inclusionChecklist": { "INC-01": true, "INC-02": true, "INC-03": true, "INC-04": true },
+      "exclusionChecklist": { "EXC-01": false, "EXC-02": true, "EXC-03": false }
+    },
+    "visits": [
+      { "visitCode": "V01-SCREEN", "actualDate": "2024-01-18", "proceduresCompleted": ["informed_consent","physical_exam","ecg","ct_scan"], "assessmentsCompleted": ["ecog_status","lab_panel_full"] },
+      { "visitCode": "V02-BASELINE", "actualDate": "2024-02-01", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing"], "assessmentsCompleted": ["ecog_status","lab_panel_full"] },
+      { "visitCode": "V03-C1D15", "actualDate": "2024-02-16", "proceduresCompleted": ["vitals"], "assessmentsCompleted": ["ae_review"] }
+    ],
+    "medications": [
+      { "medicationCode": "MED-AUR-001", "medicationName": "Aurokinib 200mg", "dose": 175, "doseUnit": "mg", "frequency": "QD", "startDate": "2024-02-01" }
+    ]
+  },
+  {
+    "patientId": "PT-5001",
+    "siteId": "SITE-055",
+    "enrollmentDate": "2023-04-15",
+    "demographics": {
+      "age": 61, "sex": "M", "weight": 82,
+      "inclusionChecklist": { "INC-01": true, "INC-02": true, "INC-03": true, "INC-04": true },
+      "exclusionChecklist": { "EXC-01": false, "EXC-02": false, "EXC-03": false }
+    },
+    "visits": [
+      { "visitCode": "V01-SCREEN", "actualDate": "2023-04-02", "proceduresCompleted": ["informed_consent","physical_exam","ecg","ct_scan"], "assessmentsCompleted": ["ecog_status","lab_panel_full"] },
+      { "visitCode": "V02-BASELINE", "actualDate": "2023-04-15", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ecg"], "assessmentsCompleted": ["ecog_status","lab_panel_full","ctdna_sample"] },
+      { "visitCode": "V03-C1D15", "actualDate": "2023-04-30", "proceduresCompleted": ["physical_exam","vitals"], "assessmentsCompleted": ["lab_panel_safety","ae_review"] },
+      { "visitCode": "V04-C2D1", "actualDate": "2023-05-15", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status"] },
+      { "visitCode": "V05-C3D1", "actualDate": "2023-06-12", "proceduresCompleted": ["physical_exam","vitals","drug_dispensing","ct_scan"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment"] },
+      { "visitCode": "V06-EOT", "actualDate": "2023-08-10", "proceduresCompleted": ["physical_exam","vitals","ct_scan","ecg"], "assessmentsCompleted": ["lab_panel_full","ae_review","ecog_status","recist_assessment","ctdna_sample"] }
+    ],
+    "medications": [
+      { "medicationCode": "MED-AUR-001", "medicationName": "Aurokinib 200mg", "dose": 200, "doseUnit": "mg", "frequency": "QD", "startDate": "2023-04-15" },
+      { "medicationCode": "MED-CYP3A4-STRONG", "medicationName": "Itraconazole", "dose": 200, "doseUnit": "mg", "frequency": "QD", "startDate": "2023-05-20", "endDate": "2023-05-30" }
+    ]
+  }
+]

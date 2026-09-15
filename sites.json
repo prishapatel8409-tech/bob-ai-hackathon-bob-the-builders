@@ -1,0 +1,66 @@
+[
+  {
+    "siteId": "SITE-042",
+    "siteName": "Boston General Hospital",
+    "country": "USA",
+    "principalInvestigator": "Dr. Sarah Chen",
+    "activeSince": "2023-01-15",
+    "staffTrainingDates": {
+      "STAFF-001": "2022-11-01",
+      "STAFF-002": "2023-09-15",
+      "STAFF-003": "2022-06-20"
+    },
+    "enrolledPatients": 45
+  },
+  {
+    "siteId": "SITE-017",
+    "siteName": "Madrid Oncology Centre",
+    "country": "Spain",
+    "principalInvestigator": "Dr. Miguel Torres",
+    "activeSince": "2023-03-01",
+    "staffTrainingDates": {
+      "STAFF-101": "2023-08-10",
+      "STAFF-102": "2023-08-10"
+    },
+    "enrolledPatients": 38
+  },
+  {
+    "siteId": "SITE-089",
+    "siteName": "Tokyo Medical University",
+    "country": "Japan",
+    "principalInvestigator": "Dr. Yuki Tanaka",
+    "activeSince": "2022-07-01",
+    "staffTrainingDates": {
+      "STAFF-201": "2023-07-15",
+      "STAFF-202": "2023-07-15",
+      "STAFF-203": "2023-07-15",
+      "STAFF-204": "2023-07-15"
+    },
+    "enrolledPatients": 62
+  },
+  {
+    "siteId": "SITE-031",
+    "siteName": "São Paulo Cancer Institute",
+    "country": "Brazil",
+    "principalInvestigator": "Dr. Ana Costa",
+    "activeSince": "2024-01-10",
+    "staffTrainingDates": {
+      "STAFF-301": "2024-01-05",
+      "STAFF-302": "2024-01-05"
+    },
+    "enrolledPatients": 12
+  },
+  {
+    "siteId": "SITE-055",
+    "siteName": "London Chest Hospital",
+    "country": "UK",
+    "principalInvestigator": "Dr. James Whitfield",
+    "activeSince": "2023-02-01",
+    "staffTrainingDates": {
+      "STAFF-401": "2023-09-20",
+      "STAFF-402": "2022-08-14",
+      "STAFF-403": "2023-09-20"
+    },
+    "enrolledPatients": 51
+  }
+]

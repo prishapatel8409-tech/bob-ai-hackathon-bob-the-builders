@@ -1,0 +1,85 @@
+{
+  "protocolId": "PROT-2024-001",
+  "trialName": "AURORA Phase III — Novel Kinase Inhibitor in Advanced NSCLC",
+  "sponsor": "AuroraBio Therapeutics Inc.",
+  "phase": "III",
+  "visits": [
+    {
+      "visitCode": "V01-SCREEN",
+      "visitName": "Screening",
+      "scheduledDay": -14,
+      "windowDays": { "before": 7, "after": 0 },
+      "requiredProcedures": ["informed_consent", "physical_exam", "ecg", "ct_scan"],
+      "requiredAssessments": ["ecog_status", "lab_panel_full"],
+      "isSafetyVisit": false
+    },
+    {
+      "visitCode": "V02-BASELINE",
+      "visitName": "Baseline / Cycle 1 Day 1",
+      "scheduledDay": 1,
+      "windowDays": { "before": 0, "after": 3 },
+      "requiredProcedures": ["physical_exam", "vitals", "drug_dispensing", "ecg"],
+      "requiredAssessments": ["ecog_status", "lab_panel_full", "ctdna_sample"],
+      "isSafetyVisit": false
+    },
+    {
+      "visitCode": "V03-C1D15",
+      "visitName": "Cycle 1 Day 15 Safety",
+      "scheduledDay": 15,
+      "windowDays": { "before": 2, "after": 2 },
+      "requiredProcedures": ["physical_exam", "vitals"],
+      "requiredAssessments": ["lab_panel_safety", "ae_review"],
+      "isSafetyVisit": true
+    },
+    {
+      "visitCode": "V04-C2D1",
+      "visitName": "Cycle 2 Day 1",
+      "scheduledDay": 29,
+      "windowDays": { "before": 3, "after": 3 },
+      "requiredProcedures": ["physical_exam", "vitals", "drug_dispensing"],
+      "requiredAssessments": ["lab_panel_full", "ae_review", "ecog_status"],
+      "isSafetyVisit": false
+    },
+    {
+      "visitCode": "V05-C3D1",
+      "visitName": "Cycle 3 Day 1 (Tumor Assessment)",
+      "scheduledDay": 57,
+      "windowDays": { "before": 3, "after": 3 },
+      "requiredProcedures": ["physical_exam", "vitals", "drug_dispensing", "ct_scan"],
+      "requiredAssessments": ["lab_panel_full", "ae_review", "ecog_status", "recist_assessment"],
+      "isSafetyVisit": false
+    },
+    {
+      "visitCode": "V06-EOT",
+      "visitName": "End of Treatment",
+      "scheduledDay": 113,
+      "windowDays": { "before": 7, "after": 7 },
+      "requiredProcedures": ["physical_exam", "vitals", "ct_scan", "ecg"],
+      "requiredAssessments": ["lab_panel_full", "ae_review", "ecog_status", "recist_assessment", "ctdna_sample"],
+      "isSafetyVisit": true
+    }
+  ],
+  "allowedMedications": ["MED-AUR-001", "MED-ANTIEMETIC", "MED-GCSF", "MED-STEROID", "MED-ANALGESIC"],
+  "bannedMedications": ["MED-CYP3A4-STRONG", "MED-QT-PROLONGING", "MED-WARFARIN"],
+  "dosageRules": [
+    {
+      "medicationCode": "MED-AUR-001",
+      "medicationName": "Aurokinib 200mg",
+      "doseUnit": "mg",
+      "minDose": 150,
+      "maxDose": 250,
+      "frequency": "QD"
+    }
+  ],
+  "inclusionCriteria": [
+    { "criteriaId": "INC-01", "description": "Histologically confirmed NSCLC", "isCritical": true },
+    { "criteriaId": "INC-02", "description": "ECOG Performance Status 0-2", "isCritical": true },
+    { "criteriaId": "INC-03", "description": "Adequate organ function (creatinine < 1.5x ULN)", "isCritical": false },
+    { "criteriaId": "INC-04", "description": "Age ≥ 18 years", "isCritical": false }
+  ],
+  "exclusionCriteria": [
+    { "criteriaId": "EXC-01", "description": "Prior treatment with kinase inhibitor in this class", "isCritical": true },
+    { "criteriaId": "EXC-02", "description": "Active CNS metastases requiring steroids", "isCritical": true },
+    { "criteriaId": "EXC-03", "description": "QTc > 470ms at screening", "isCritical": false }
+  ]
+}
