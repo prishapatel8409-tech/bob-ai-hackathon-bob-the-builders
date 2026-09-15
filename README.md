@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 [Bob the builders]
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | [Bob the builders] |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | aadishah1811@gmail.com |
+| **Members** | [Prisha Patel ], [Prachi Patel], [Godhaviya Gopi] |
 
 ---
 
@@ -19,7 +19,7 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+[A major clinical trial has 5,000+ patient visits across 200+ sites. Protocol deviations — missed visits, wrong dosing, banned co-medications — go undetected until the FDA audit. A single rejected submission delays drug approval by 6–12 months and costs $50–100M. Risk managers need real-time visibility into which sites are highest risk before problems escalate]
 
 ---
 
@@ -27,15 +27,25 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+[Clinical trials involve thousands of patients, multiple sites, and huge amounts of data. Even a small protocol deviation can lead to serious consequences, including delayed drug approvals and significant financial losses.That’s why we developed TrialGuard — a Clinical Trial Risk Monitoring and Protocol Deviation Detection platform.]
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
+- **Feature 1:** [1. Dashboard
+Shows a quick overview of the clinical trial, such as the number of problems found, risky sites, and completed checks.
+"]
+- **Feature 2:** [2. Risk Monitoring
+Checks different clinical trial sites and gives them a risk score. This helps the team quickly find which sites need more attention.
+]
+- **Feature 3:** [3. Protocol Deviation Detection
+Finds problems when patient data does not follow the clinical trial rules. For example:
+
+* Wrong dosage
+* Missed visits
+* Banned medicines
+* Missing signatures]
 - **Feature 4:** [Optional]
 - **Feature 5:** [Optional]
 
@@ -97,7 +107,7 @@ cp .env.example .env
 
 | Artifact | Link |
 |---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
+| 📹 Demo Video | [C:\Users\pp294\Videos\Captures\TrialGuard — Clinical Trial Risk Monitor and 2 more pages - Personal - Microsoft​ Edge 2026-09-15 23-21-56.mp4"](demo/demo-video-link.txt) |
 | 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
 | 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
 | 📊 Presentation | [See presentation/slides.pdf](presentation/) |
